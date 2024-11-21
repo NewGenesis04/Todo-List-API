@@ -1,4 +1,4 @@
-from flask import jsonify, request, flash, session, url_for, redirecting
+from flask import jsonify, request, flash, session, url_for, redirect
 from flask_login import login_user, logout_user, current_user, login_required
 from models import User, Task
 import json
